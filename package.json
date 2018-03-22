@@ -1,6 +1,7 @@
 {
   "name": "api-mashup",
   "version": "0.1.0",
+  "homepage": "http://zacharyfmarion.io/vue-api-mashup",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve --open",
@@ -19,25 +20,16 @@
     "vue-template-compiler": "^2.5.13"
   },
   "babel": {
-    "presets": [
-      "@vue/app"
-    ]
+    "presets": ["@vue/app"]
   },
   "eslintConfig": {
     "root": true,
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ]
+    "extends": ["plugin:vue/essential", "eslint:recommended"]
   },
   "postcss": {
     "plugins": {
       "autoprefixer": {}
     }
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ]
+  "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"]
 }
